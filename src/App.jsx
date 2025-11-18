@@ -4,6 +4,7 @@ import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Contact from './components/Contact';
+import TechVideoSlider from './components/TechVideoSlider';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <TechVideoSlider />
         <Services />
         <Portfolio />
         <About />
